@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Ranade';
+  src: url('./fonts/Ranade-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Optional: Define specific font properties */
+body {
+  font-family: 'Ranade', sans-serif;
+}

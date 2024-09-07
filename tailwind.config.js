@@ -5,7 +5,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        ranade: ['Ranade', 'sans-serif'],
+        VarelaRound: ['Varela Round', 'sans-serif'],
+        lato: ['Lato', 'sans-serif'],
+      }
+    },
   },
   plugins: [],
 }

@@ -1,3 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Varela+Round&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  overflow-y: hidden;
+}
+
+.app
+  /* resulting css */
+{
+  filter: contrast(110%) brightness(100%);
+  background: 
+	radial-gradient(circle at 31% 65%, rgba(21,170,245,0.78), rgba(249,239,117,1)),
+  radial-gradient(
+    at var(--mouse-x) var(--mouse-y),
+     rgba(143, 158, 165, 0.78), rgb(72, 69, 38)),
+	url("data:image/svg+xml,%3Csvg viewBox='0 0 164 164' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='3.66' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  height: 100vh;
+
+}
+  
